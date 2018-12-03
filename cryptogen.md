@@ -1,18 +1,18 @@
 # crytopgen structure
 
-| type  |       | certs       | key  |
-| ---   | ---   | ---         | ---  |
-| ca    |       | .pem        | _sk  |
-| msp   |       | admincerts  |      |
-|       |       | cacerts     |      |
-|       |       | tlscerts    |      |
-|       |       | signcert    | keystore(_sk) |
-| peers | msp   | admincerts  |      |
-|       |       | cacerts     |      |
-|       |       | tlscerts    |      |
-|       |       | signcerts   | keystore(_sk) |
-|       | tls   | ca.crt      |      |
-| tlsca |       | .pem        | _sk  |
+| org sub | sub   | certs       | key  |
+| ---     | ---   | ---         | ---  |
+| ca      |       | .pem        | _sk  |
+| msp     |       | admincerts  |      |
+|         |       | cacerts     |      |
+|         |       | tlscerts    |      |
+|         |       | signcert    | keystore(_sk) |
+| peers   | msp   | admincerts  |      |
+|         |       | cacerts     |      |
+|         |       | tlscerts    |      |
+|         |       | signcerts   | keystore(_sk) |
+|         | tls   | ca.crt      |      |
+| tlsca   |       | .pem        | _sk  |
 | users(Admin) | msp | admincerts  |  |
 |              |     | cacerts     |  |
 |              |     | tlscerts    |  |
