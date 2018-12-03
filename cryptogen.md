@@ -1,4 +1,4 @@
-# crytopgen structure
+# peerOrganizations structure by crytopgen
 
 | org sub | sub   | certs       | key  |
 | ---     | ---   | ---         | ---  |
