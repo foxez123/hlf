@@ -1,12 +1,12 @@
 # crytopgen
 
-| type |   | certs      | key |
-| ---  | . | ---        | --- |
-| ca   |   | .pem       | _sk |
-| msp  | . | admincerts | |
-|      | . | cacerts    | |
-|      | . | tlscerts   | |
-|      | . | signcert   | |
+| type  |     | certs      | key |
+| ---   | --- | ---        | --- |
+| ca    |     | .pem       | _sk |
+| msp   | .   | admincerts | |
+|       | .   | cacerts    | |
+|       | .   | tlscerts   | |
+|       | .   | signcert   | |
 | peers | msp | admincerts  | .   |
 |       |     | cacerts     | .   |
 |       |     | tlscerts    | .   |
