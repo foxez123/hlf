@@ -27,7 +27,7 @@
 |              |     | client.crt  | client.key   |
 
 ex)
-...
+~~~
 └── peerOrganizations
     ├── org1.example.com
     │   ├── ca
@@ -195,4 +195,4 @@ ex)
                     ├── ca.crt
                     ├── client.crt
                     └── client.key
-...
+~~~
